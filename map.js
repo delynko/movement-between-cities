@@ -53,7 +53,7 @@ function getMarkers(number){
 function getAnimationData(t){
     var city1 = document.querySelector("#inputLived" + (t)).value;
     var formatted1 = city1.split(" ").join("+");
-    var googleSearch1 = "http://maps.googleapis.com/maps/api/geocode/json?address=" + formatted1 + ",&sensor=false";
+    var googleSearch1 = "https://maps.googleapis.com/maps/api/geocode/json?address=" + formatted1 + ",&sensor=false";
     var fromData;
     
     $.getJSON(googleSearch1, function(data) {
@@ -65,7 +65,7 @@ function getAnimationData(t){
     
     var city2 = document.querySelector("#inputLived" + (t + 1)).value;
     var formatted2 = city2.split(" ").join("+");
-    var googleSearch2 = "http://maps.googleapis.com/maps/api/geocode/json?address=" + formatted2 + ",&sensor=false";
+    var googleSearch2 = "https://maps.googleapis.com/maps/api/geocode/json?address=" + formatted2 + ",&sensor=false";
     var toData;
     
     $.getJSON(googleSearch2, function(data) {
