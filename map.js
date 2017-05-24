@@ -84,7 +84,7 @@ function getAnimationData(t){
         toCoordinates.push(toData.results[0].geometry.location.lat);
         
         animate(toCoordinates, fromCoordinates);
-    }, 3000);
+    }, 7000);
 }
     
 function animate(toCoords, fromCoords){
