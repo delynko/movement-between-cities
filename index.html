@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <meta charset=utf-8 />
+    <title>Map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12 col-md-8 col-lg-8">
+                <div id="map"></div>
+            </div>
+            <div class="col-xs-12 col-md-4 col-lg-4">
+                <div id="formContainer">
+                    <form id="form">
+                        <input class="newInput" type="text" id="inputLived0" placeholder="City, ST">
+                        <input type="button" id="submitButton" value="Submit">
+                        <input type="button" id="addCityButton" value="Add City"><br>
+                    </form>
+                </div>
+            </div>    
+        </div>
+    </div>
+<script type="text/javascript" src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="leaflet.migrationLayer.js"></script>
+<script type="text/javascript" src="map.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+#map {
+    height: 100%;
+    width: 100%
+}
+
+#formContainer {
+    margin-top: 15px;
+}
+
+.newInput {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#animationButton {
+    margin-left: 20px;
+}
+
+.hidden {
+    display: none
+}
